@@ -31,12 +31,12 @@ class MyButton(Button):
             convTouch = np.matmul(npTouch, self.parent.inv_mat)
             touch.x = convTouch[0,0]
             touch.y = convTouch[0,1]
-        background_normal = 'Textures/Grass.png'
+        background_normal = 'grass.png'
         return super(MyButton, self).on_touch_down(touch)
 
     def on_touch_up(self, touch):
         self.parent.touched = False
-        background_normal = 'Textures/Grass.png'
+        background_normal = 'grass.png'
         return super(MyButton, self).on_touch_up(touch)
 
 
@@ -59,7 +59,7 @@ class MyApp(kivy.app.App):
         with layout.canvas.after:
             PopMatrix()
         for i in range (1, 101):
-            layout.add_widget(MyButton(background_normal = 'Textures/Grass.png' ,
+            layout.add_widget(MyButton(background_normal = 'grass.png' ,
                      pos_hint = {"x":500, "y":500}))
         return layout
 
