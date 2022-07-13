@@ -6,9 +6,10 @@ The latest minor update is supported with security updates. Only the latest pre-
 
 | Version         | Supported          |
 | ----------------| ------------------ |
-| 1.0.0-alpha-2   | :white_check_mark: |
+| 1.0.0-alpha-3   | :white_check_mark: |
+| 1.0.0-alpha-2   | :x:                |
 | 1.0.0-alpha-1   | :x:                |
 
 ## Reporting a Vulnerability
 
-Report security vulnerabilities via the "Security" page on the "Security Advisories" section.
+idk how to do it
